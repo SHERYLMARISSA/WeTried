@@ -1,0 +1,315 @@
+*{
+    margin: 0%;
+    padding:0%;
+  }
+  
+  body{
+    margin:0%;
+    padding:0%;
+  background:#c3ecfd;
+  }
+  
+  .navbar1{
+    background-color: #464E47;
+    height:50px;
+    display:flex;
+    
+  } 
+  
+  .fa-envelope {
+  
+  color: #2196f3;
+  position:relative;
+  top:18px;
+  left:80px;
+  }
+  
+  
+  #email{
+    font-size:25px;
+    color:white ;
+    font-weight:bolder;
+    position:relative;
+    top:11px;
+    left:90px;
+  }
+  
+  .fa-facebook {
+    background: #464E47;
+    color: white;
+    position:relative;
+    top:13px;
+    left:750px;
+  }
+  
+  .fa-twitter {
+    background: #464E47;
+    color: white;
+    position:relative;
+    top:13px;
+    left:755px;
+  }
+  
+  .fa-linkedin-square{
+    background-color:#464E47;
+    color:white;
+    position:relative;
+    top:13px;
+    left:760px;
+  }
+  
+  .fa-instagram {
+    background: #464E47;
+    color: white;
+    position:relative;
+    top:13px;
+    left:765px;
+  }
+  
+  .fa-whatsapp {
+    background: #464E47;
+    color: white;
+    position:relative;
+    top:13px;
+    left:770px;
+  }
+  
+   .fa-youtube {
+    background: #464E47;
+    color: white;
+    position:relative;
+    top:13px;
+    left:780px;
+  }
+  
+  /* SERVICES*/
+  
+  #heading{
+    height:100px;
+    background-color: #c3ecfd;
+  }
+  
+  #head{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size : 50px;
+    text-align: center;
+    color: black;
+    position:relative;
+    text-decoration:underline;
+    top:15px;
+  }
+
+/* AIM */
+
+#aimbar{
+    height:50px;
+    background-color: #c3ecfd;
+    display: flex;
+}
+
+#aim{
+    height:50px;
+    width:90px;
+    background-color: #c3ecfd;
+    color: black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size : 30px;
+}
+
+#aiminfo{
+    font-family:'Comfortaa',cursive;
+font-size: 25px;
+color:black;
+}
+
+/* PIECHART1*/
+
+#piebg1{
+    background-color: #c3ecfd;
+    display: flex;
+    height:465px;
+}
+
+#piechart1{
+    height: 450px;
+    width:450px;
+    background:conic-gradient(
+      orange 0 19.23%,
+      yellow 19.23% 42.31%,
+      rgb(40, 179, 40) 42.31% 58.74%,
+      rgb(76, 76, 230) 58.74% 68.88%,
+      pink 68.88% 100%
+    
+    );
+    border-radius: 50%;
+    border-color: black;
+  }
+
+
+
+#statistics1{
+height:465px;
+width:150px;
+background-color:#c3ecfd;
+}
+
+#subheading{
+  color: black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+  font-size:35px;
+  text-align: center;
+}
+
+#data1{
+  height:20px;
+  width:20px;
+  background-color: orange;
+  border-radius: 50%;
+}
+
+#data2{
+  height:20px;
+  width:20px;
+  background-color: yellow;
+  border-radius: 50%;
+}
+
+#data3{
+  height:20px;
+  width:20px;
+  background-color: rgb(40, 179, 40);
+  border-radius: 50%;
+}
+
+#data4{
+  height:20px;
+  width:20px;
+  background-color: rgb(76, 76, 230);
+  border-radius: 50%;
+}
+
+#data5{
+  height:20px;
+  width:20px;
+  background-color: pink;
+  border-radius: 50%;
+}
+
+#pieinfo1{
+  height:465px;
+  width:840px;
+  background-color:#c3ecfd;
+}
+
+/*PIECHART 2*/
+
+#piebg2{
+  background-color: #c3ecfd;
+  display: flex;
+  height:465px;
+}
+
+#piechart2{
+  height: 450px;
+  width:450px;
+  background:conic-gradient(
+    orange 0 17.44%,
+    yellow 17.44% 46.27%,
+    rgb(40, 179, 40) 46.27% 59.44%,
+    rgb(76, 76, 230) 59.44% 68.34%,
+    pink 68.38% 100%
+  
+  );
+  border-radius: 50%;
+  border-color: black;
+}
+
+#statistics2{
+height:465px;
+width:150px;
+background-color:#c3ecfd;
+}
+
+#subheading{
+color: black;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+font-size:35px;
+text-align: center;
+}
+
+#data1{
+height:20px;
+width:20px;
+background-color: orange;
+align-items: center;
+border-radius: 50%;
+}
+
+#data2{
+height:20px;
+width:20px;
+background-color: yellow;
+border-radius: 50%;
+}
+
+#data3{
+height:20px;
+width:20px;
+background-color: rgb(40, 179, 40);
+border-radius: 50%;
+}
+
+#data4{
+height:20px;
+width:20px;
+background-color: rgb(76, 76, 230);
+border-radius: 50%;
+}
+
+#data5{
+height:20px;
+width:20px;
+background-color: pink;
+border-radius: 50%;
+}
+
+#pieinfo2{
+height:465px;
+width:840px;
+background-color:#c3ecfd;
+}
+
+/*RECOMMEMNDATIONS*/
+#recommendations{
+  font-family:'Comfortaa',cursive;
+font-size: 25px;
+color:black;
+}
+
+/*CONCLUSION*/
+#conclusion{
+  font-family:'Comfortaa',cursive;
+font-size: 25px;
+color:black;
+}
+
+/* FOOTER */
+
+.footer{
+  background-color: #464E47;
+  height:50px;
+}
+
+.copyright{
+  font-size:25px;
+  color:#F1FFFA ;
+  font-weight:bolder;
+  text-align: center;
+  font-size: 20px;
+  position: relative;
+  top:15px;
+}

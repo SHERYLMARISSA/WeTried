@@ -1,0 +1,213 @@
+*{
+    margin: 0%;
+    padding:0%;
+  }
+  
+  body{
+  background:linear-gradient(to top,black,#7F5539,#9C6644,#B08968,#E6CCB2)
+  }
+  
+  .navbar1{
+    background-color: #464E47;
+    height:50px;
+    display:flex;
+    
+  } 
+  
+  .fa-envelope {
+  
+  color: #9C6644;
+  position:relative;
+  top:18px;
+  left:80px;
+  }
+  
+  
+  #email{
+    font-size:25px;
+    color:white ;
+    font-weight:bolder;
+    position:relative;
+    top:11px;
+    left:90px;
+  }
+  
+  .fa-facebook {
+    background: #464E47;
+    color: white;
+    position:relative;
+    top:13px;
+    left:750px;
+  }
+  
+  .fa-twitter {
+    background: #464E47;
+    color: white;
+    position:relative;
+    top:13px;
+    left:755px;
+  }
+  
+  .fa-linkedin-square{
+    background-color:#464E47;
+    color:white;
+    position:relative;
+    top:13px;
+    left:760px;
+  }
+  
+  .fa-instagram {
+    background: #464E47;
+    color: white;
+    position:relative;
+    top:13px;
+    left:765px;
+  }
+  
+  .fa-whatsapp {
+    background: #464E47;
+    color: white;
+    position:relative;
+    top:13px;
+    left:770px;
+  }
+  
+   .fa-youtube {
+    background: #464E47;
+    color: white;
+    position:relative;
+    top:13px;
+    left:780px;
+  }
+  
+  /*Careers*/
+  
+  #heading{
+    height:100px;
+    background-color: #B08968;
+  }
+  
+  #head{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size : 50px;
+    text-align: center;
+    color: black;
+    position:relative;
+    text-decoration:underline;
+    top:15px;
+  }
+
+  .timeline{
+    margin: 5em auto;
+    max-width:34.15em;
+}
+
+.container{
+    max-width:34em;
+    padding-top:2em;
+    padding-bottom: 2em;
+    position: relative;
+}
+
+.container div {
+border: 2px solid black;
+border-radius: 1em;
+padding:1.5em;
+}
+
+.container p {
+line-height:27px;
+}
+
+.container:nth-child(odd){
+    border-left: 3px solid black;
+    padding-left:3em;
+    transform: translateX(17em);
+}
+.container:nth-child(even){
+    border-right: 3px solid black;
+    padding-right:3em;
+    transform: translateX(-17em);
+}
+
+.container:nth-child(odd)::before,
+.container:nth-child(even)::before {
+    content:'';
+    background:black;
+    width:3em;
+    height:3px;
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
+}
+
+.container:nth-child(odd)::before{
+    left:0;
+}
+
+.container:nth-child(even)::before{
+    right:0;
+}
+
+.container:nth-child(odd) div::before,
+.container:nth-child(even) div::before {
+    content:'';
+    background:white;
+    box-shadow: 0 0 0.5em #7F5539;
+    width:0.8em;
+    height:0.8em;
+    position:absolute;
+    top:50%;
+    transform: translateY(-50%);
+    border-radius: 50%;
+}
+
+.container:nth-child(odd) div::before{
+    left:-0.5em;
+}
+
+.container:nth-child(even) div::before{
+    right:-0.5em;
+}
+
+h2{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+  font-size : 25px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #7F5539;
+}
+
+p{
+  text-align:center;
+font-family:'Comfortaa',cursive;
+font-size: 17px;
+}
+
+.text-box{
+  background:#E6CCB2;
+  box-shadow: 10px 20px 3px black;
+}
+
+.text-box:hover{
+background-color:#B08968;
+}
+
+/* FOOTER */
+
+.footer{
+  background-color: #464E47;
+  height:50px;
+}
+
+.copyright{
+  font-size:25px;
+  color:#F1FFFA ;
+  font-weight:bolder;
+  text-align: center;
+  font-size: 20px;
+  position: relative;
+  top:15px;
+}

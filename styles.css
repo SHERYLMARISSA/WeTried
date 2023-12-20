@@ -1,0 +1,368 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+  margin:0;
+  padding:0;
+background:#CCFCCB;
+
+}
+
+/*  NAVIGATION BAR 1*/
+
+.navbar1{
+    background-color: #464E47;
+    height:50px;
+    display:flex;
+    
+} 
+
+.fa-envelope {
+  
+  color: #CCFCCB;
+  position:relative;
+  top:18px;
+  left:80px;
+}
+
+
+#email{
+    font-size:25px;
+    color:#F1FFFA ;
+    font-weight:bolder;
+    position:relative;
+    top:11px;
+    left:90px;
+}
+
+.fa-facebook {
+    background: #464E47;
+    color: #F1FFFA;
+    position:relative;
+    top:13px;
+    left:750px;
+  }
+
+  .fa-twitter {
+    background: #464E47;
+    color: #F1FFFA;
+    position:relative;
+    top:13px;
+    left:755px;
+  }
+
+  .fa-linkedin-square{
+    background-color:#464E47;
+    color:#F1FFFA;
+    position:relative;
+    top:13px;
+    left:760px;
+  }
+  
+  .fa-instagram {
+    background: #464E47;
+    color: #F1FFFA;
+    position:relative;
+    top:13px;
+    left:765px;
+  }
+
+  .fa-whatsapp {
+    background: #464E47;
+    color: #F1FFFA;
+    position:relative;
+    top:13px;
+    left:770px;
+  }
+
+   .fa-youtube {
+    background: #464E47;
+    color: #F1FFFA;
+    position:relative;
+    top:13px;
+    left:780px;
+  }
+
+/*  NAVIGATION BAR 2*/
+
+.navbar2{
+  background-color: #96E6B3;
+  height:150px;
+  display:flex;
+}
+
+.logo_area{
+  position:absolute;
+} 
+#academics{
+  position:relative;
+  top:60px;
+  left:250px;
+  text-decoration: none;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:25px;
+  color:#000000 ;
+
+}
+
+#academics:hover{
+background-color:#464E47 ;
+width:122px; 
+border-radius:7%;
+color: #F1FFFA;
+height:32px;
+}
+
+
+#services{
+  position:relative;
+  top:60px;
+  left:300px;
+  text-decoration: none;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:25px;
+  color:#000000 ;
+
+}
+
+#services:hover{
+  background-color:#464E47 ;
+  width:96px; 
+  border-radius:7%;
+  color: #F1FFFA;
+  height:32px;
+  }
+
+
+#research{
+  position:relative;
+  top:60px;
+  left:350px;
+  text-decoration: none;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:25px;
+  color:#000000 ;
+
+}
+
+
+
+#research:hover{
+  background-color:#464E47 ;
+  width:107px; 
+  border-radius:7%;
+  color: #F1FFFA;
+  height:32px;
+  }
+
+#careers{
+  position:relative;
+  top:60px;
+  left:400px;
+  text-decoration: none;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:25px;
+  color:#000000 ;
+
+}
+
+#careers:hover{
+  background-color:#464E47 ;
+  width:89px; 
+  border-radius:7%;
+  color: #F1FFFA;
+  height:32px;
+  }
+
+  #placements{
+    position:relative;
+    top:60px;
+    left:450px;
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:25px;
+    color:#000000 ;
+  
+  }
+  
+  #placements:hover{
+    background-color:#464E47 ;
+    width:130px; 
+    border-radius:7%;
+    color: #F1FFFA;
+    height:32px;
+    }
+
+#phoneno{
+  position:relative;
+  top:55px;
+  left:490px;
+  text-decoration: none;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:20px;
+  color:#000000 ;
+
+}
+
+.fa-phone{
+  position:relative;
+  top:55px;
+  left:260px;
+}
+
+#line{
+  position:relative;
+  font-size:60px;
+  top:35px;
+  left:460px;
+}
+
+.fa-search{
+  position:relative;
+  top:52px;
+  left:460px;
+}
+
+/* BOXES */
+#heading{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+  font-size : 50px;
+  text-align: center;
+  color: black;
+  position:relative;
+  text-decoration:underline;
+  top:30px;
+}
+
+.subheading{
+  background-color: #CCFCCB;
+  height:100px;
+}
+
+/* BOXES */
+
+.container{
+  display:flex;
+  justify-content:space-evenly;
+  background-color:#CCFCCB;
+}
+
+.box{ 
+  height:250px;
+  width:25%;
+  background-color: #96E6B3;
+  border-radius:10%;
+  box-shadow: 10px 20px 3px #464E47;
+}
+
+.box:hover{ 
+  height:250px;
+  width:25%;
+  background-color:#F1FFFA ;
+  border-radius:10%;
+  box-shadow: 10px 20px 3px #464E47;
+ 
+}
+
+
+.boxcontent1{
+  text-align: center;
+  text-decoration: none;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:30px;
+  color:#000000 ;
+  font-weight: bold;
+position: relative;
+top:20px;
+}
+
+.boxcontent2{
+  text-align: center;
+  text-decoration: none;
+  font-family:'Comfortaa',cursive;
+  font-size:25px;
+  color:#000000 ;
+position: relative;
+top:45px;
+}
+
+
+.boxcontent3{
+  text-align: center;
+  text-decoration: none;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:30px;
+  color:#000000 ;
+  font-weight: bold;
+  position: relative;
+top:20px;
+}
+
+.boxcontent4{
+  text-align: center;
+  text-decoration: none;
+  font-family:'Comfortaa',cursive;
+  font-size:23px;
+  color:#000000 ;
+position: relative;
+top:25px;
+}
+
+
+.boxcontent5{
+  text-align: center;
+  text-decoration: none;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:30px;
+  color:#000000 ;
+  font-weight: bold;
+  position: relative;
+top:20px;
+}
+
+.boxcontent6{
+  text-align: center;
+  text-decoration: none;
+  font-family:'Comfortaa',cursive;
+  font-size:23px;
+  color:#000000 ;
+position: relative;
+top:30px;
+}
+
+
+#aboutus1{
+text-align:center;
+font-family:'Comfortaa',cursive;
+font-size: 25px;
+color:#464E47;
+}
+
+#aboutus2{
+  text-align:center;
+  font-family:'Comfortaa',cursive;
+  font-size: 25px;
+  color:#464E47;
+  }
+
+  .footer{
+    background-color: #464E47;
+    height:50px;
+  }
+
+  .copyright{
+    font-size:25px;
+    color:#F1FFFA ;
+    font-weight:bolder;
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+    top:15px;
+  }
+
+  
+  
